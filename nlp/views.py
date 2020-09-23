@@ -10,11 +10,14 @@ with open("rdmf.pickle", mode="rb") as f:
 
 
 def index(request):
+    # urlだけ入力された場合
     if request.method == "GET":
         return render(
             request,
             "nlp/home.html"
         )
+
+    # 何か入力された場合
     else:
         title = [request.POST["title"]]
         print("title:", title)
