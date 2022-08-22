@@ -1,3 +1,2 @@
-# ai_app
-AIを用いたwebアプリ
+# AIを用いたwebアプリ
 
